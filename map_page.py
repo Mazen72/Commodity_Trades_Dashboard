@@ -5,7 +5,7 @@ import functions
 
 def get_layout(df):
     # a text to inform the user that hovering shows more details
-    info_text = html.Div('Hover over a country to see more info..', className='table_header',
+    info_text = html.Div('Hover over a country to see more info..', 
                             style=dict(fontSize='1.6vh', fontWeight='', color='black',
                                        textAlign="left", width='100%', paddingLeft='2rem'))
 
