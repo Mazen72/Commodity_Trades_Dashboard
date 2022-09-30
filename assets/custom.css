@@ -1,0 +1,171 @@
+
+
+
+body {
+  /*overflow: hidden; /* Hide scrollbars */
+  background-color:transparent;
+  overflow-x: hidden;
+}
+
+.main{
+
+
+height:100% ;
+min-height:100vh;
+width:100% ;
+min-width:100vw;
+}
+
+
+
+
+.header-link{
+color : white;
+font-size: calc(0.15rem + 0.7vw);
+}
+
+.filters_header{
+font-size: calc(0.4rem + 0.4vw); 
+}
+
+.table_header{
+font-size: calc(0.7rem + 0.4vw); 
+}
+
+
+.dropdown_filter{
+font-size: calc(0.3rem + 0.4vw); 
+}
+
+.radio_filters{
+font-size: calc(0.4rem + 0.4vw); 
+}
+
+.radio_filters2{
+font-size: calc(0.5rem + 0.4vw); 
+}
+
+
+.header-link.active {
+  color:#0096eb;
+    font-weight:bold;
+}
+
+.header-link:hover {
+ /* background-color: #67687A;*/
+  color:white;
+  font-weight:bold;
+}
+
+.download_excel_button:hover {
+  background-color: #0089EB !important;
+  /*  color:white;1E99E2 */
+  font-weight:bold !important;
+}
+
+.myimg{
+/*height:calc(60rem + 1vh);*/
+/*width:calc(90rem + 1vw);*/
+}
+
+
+.main_header{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: calc(0.5rem + 0.7vw);
+}
+
+
+
+.info-header{
+/*font-size: clamp(0.9rem, 0.8vw, 7rem);*/
+font-size: calc(0.45rem + 0.4vw);
+}
+
+
+.info-card{
+height:calc(7.5rem + 1vh);
+/*width:calc(9rem + 1vw);*/
+}
+
+.num{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+/*font-size: calc(0.9rem + 0.5vw);*/
+  transform: translate(-50%, -50%);
+}
+
+.Select-value-label {
+    color: black !important;
+   
+}
+
+
+.Select-value {
+    border-color: #BEBEBE !important;
+   
+}
+
+.VirtualizedSelectOption {
+    background-color: #DCDCDC;
+    color: black;
+font-size: calc(0.3rem + 0.4vw); 
+ }
+
+.charts-card{
+height:calc(19rem + 1vh);
+
+}
+
+.trades_num_graph{
+height:calc(18rem + 1vh);
+}
+
+.trades_balance_graph{
+height:calc(18rem + 1vh);
+}
+
+
+/*
+input, select, textarea{
+    color: white;
+}*/
+
+
+
+
+/* 
+path.surface:hover {
+    stroke: red !important; 
+    color: white !important
+		}*/
+ 
+ .rc-slider-track {
+  background-color: #00bfff;
+}
+
+.rc-slider-dot-active {  
+  border-color: #00bfff;
+  border: solid 2px #00bfff;
+  background-color: #0f2937;
+}
+
+.rc-slider-handle {
+  background-color: #0f2937;
+  border-color: #00bfff;
+}
+
+.rc-slider-handle:hover {
+  border-color: #00bfff;
+}
+
+.rc-slider-handle-active:active {
+  border-color: #00bfff;
+}
+
+.rc-slider-disabled{
+  background-color: #00bfff;
+}
