@@ -257,7 +257,7 @@ def get_map_figure(df):
 
     # im adjusting the map margins here
     fig.update_layout(margin=dict(l=0, r=0, t=40, b=0), coloraxis_colorbar_x=0.9, autosize=True,
-                      title='<b>Countries Overall Number of Trades<b>', title_x=0.5, font=dict(color='black', size=10))
+                      title='<b>Countries Overall Number of Trades<b>', title_x=0.5, font=dict(color='black', size=12))
 
     # this part is responsible for making the map fit to its locations
     fig.update_geos(fitbounds="locations", visible=True,  # projection=dict(type='boggs')
